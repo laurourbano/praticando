@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Descritor mínimo de um widget Fluig. Todo widget precisa declarar aqui
+  nome, ícone e o arquivo de view principal — é o "manifesto" que o portal
+  lê para saber o que exibir e onde buscar o HTML/JS/CSS.
+-->
+<widget>
+    <name>
+        <![CDATA[Lista de Solicitações]]>
+    </name>
+    <description>
+        <![CDATA[Exemplo didático: lista as últimas solicitações via dataset.]]>
+    </description>
+    <icon>icon-list</icon>
+    <view>view.html</view>
+    <width>4</width>
+    <height>3</height>
+</widget>
