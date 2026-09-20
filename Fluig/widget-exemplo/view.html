@@ -1,0 +1,15 @@
+<!--
+  Boa prática: a view só contém estrutura (markup) e referências a script/css
+  externos. Nada de lógica de busca de dados ou tratamento de evento aqui —
+  isso vive em script.js, para o HTML ficar legível e testável separadamente.
+-->
+<link rel="stylesheet" href="style.css">
+
+<div class="solicitacoes-widget">
+    <h3>Últimas solicitações</h3>
+    <ul id="listaSolicitacoes" class="solicitacoes-lista">
+        <li class="solicitacoes-carregando">Carregando...</li>
+    </ul>
+</div>
+
+<script src="script.js"></script>

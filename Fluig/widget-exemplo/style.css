@@ -1,0 +1,25 @@
+.solicitacoes-widget {
+    font-family: Arial, sans-serif;
+    padding: 8px;
+}
+
+.solicitacoes-lista {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.solicitacoes-item {
+    padding: 6px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.solicitacoes-erro {
+    color: #b00020;
+}
+
+.solicitacoes-carregando,
+.solicitacoes-vazio {
+    color: #777;
+    font-style: italic;
+}
